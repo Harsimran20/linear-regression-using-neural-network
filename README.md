@@ -51,6 +51,7 @@ print(model.predict(np.array([[15.0]])))  # Expected output: ~31
 - The model learns to predict outputs like:
 - textInput: 15.0 → Predicted Output: 30.95 (approx)
 - This closely matches the true function ( y = 2x + 1 ), showing that the network has successfully learned the linear relationship.
+  
 📚 Educational Use
 This project is ideal for:
 
