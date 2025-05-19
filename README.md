@@ -41,6 +41,7 @@ y = 2 * x + 1
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(units=1, input_shape=[1])
 ])
+
 model.compile(optimizer='sgd', loss='mean_squared_error')
 model.fit(x, y, epochs=100, verbose=0)
 
