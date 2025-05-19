@@ -12,20 +12,20 @@ Goal: Learn the mapping from x to y = 2x + 1 using data-driven training
 
 
 🧠 Model Architecture
-textInput (x) → Dense(1) → Output (y)
-This is the simplest neural network structure, consisting of:
+- textInput (x) → Dense(1) → Output (y)
 
-1 input neuron
-1 dense layer with 1 output neuron
-No activation function (default linear)
+- This is the simplest neural network structure, consisting of:
+
+- 1 input neuron
+- 1 dense layer with 1 output neuron
+- No activation function (default linear)
 
 🛠️ Dependencies
-Install the required package:
-bashpip install tensorflow
+- Install the required package:
+- pip install tensorflow
 🚀 Running the Project
 
 Clone the Repository
-
 git clone repository
 cd linear-regression-using-neural-network
 Run the Script
@@ -47,12 +47,12 @@ model.fit(x, y, epochs=100, verbose=0)
 # Predict
 print(model.predict(np.array([[15.0]])))  # Expected output: ~31
 📈 Result
-The model learns to predict outputs like:
-textInput: 15.0 → Predicted Output: 30.95 (approx)
-This closely matches the true function ( y = 2x + 1 ), showing that the network has successfully learned the linear relationship.
+- The model learns to predict outputs like:
+- textInput: 15.0 → Predicted Output: 30.95 (approx)
+- This closely matches the true function ( y = 2x + 1 ), showing that the network has successfully learned the linear relationship.
 📚 Educational Use
 This project is ideal for:
 
-First-time users of TensorFlow
-Understanding the training process of neural networks
-Observing how neural networks can learn mathematical functions
+- First-time users of TensorFlow
+- Understanding the training process of neural networks
+- Observing how neural networks can learn mathematical functions
